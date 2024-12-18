@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+@font-face{
+  font-family: "textual";
+  src: url("../../public/font/textual.ttf")
+}
+@font-face{
+  font-family: "roboto";
+  src: url("../../public/font/Roboto-Black.ttf");
+}
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.textual{
+  font-family: "textual";
+}
+.roboto{
+  font-family: "roboto";
+}
+.ql-font-roboto{
+  font-family: "roboto";
+}
+.ql-editor {
+	font-family: '__ManropeFont_e02189', '__ManropeFont_Fallback_e02189' !important;
+}
