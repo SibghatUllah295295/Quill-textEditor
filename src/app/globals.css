@@ -22,6 +22,11 @@
   font-family: "roboto";
   src: url("../../public/font/Roboto-Black.ttf");
 }
+
+@font-face{
+  font-family: "aeonik";
+  src: url("../../public/font/aeonik-regular.ttf")
+}
 body {
   color: var(--foreground);
   background: var(--background);
@@ -29,14 +34,36 @@ body {
 }
 
 .textual{
-  font-family: "textual";
+  font-family: "textual"!important;
 }
 .roboto{
-  font-family: "roboto";
+  font-family: "roboto"!important;
+}
+
+.aeonik{
+  font-family: "aeonik"!important;
 }
 .ql-font-roboto{
   font-family: "roboto";
 }
-.ql-editor {
-	font-family: '__ManropeFont_e02189', '__ManropeFont_Fallback_e02189' !important;
+.ql-font-textual{
+  font-family: "textual";
 }
+.editor-color{
+  background-color: transparent!important;
+}
+/* font-family: '__ManropeFont_e02189', '__ManropeFont_Fallback_e02189' !important; */
+
+.ql-editor {
+  font-family: "";
+}
+
+
+/* .ql-container {
+  box-sizing: border-box;
+  font-family: "textual";
+  font-size: 17px;
+  height: 100%;
+  margin: 21px;
+  position: relative;
+} */
